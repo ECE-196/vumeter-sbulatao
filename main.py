@@ -33,7 +33,6 @@ for led in leds:
 def lightUp(volume, maxVolume, numberLeds):
     lighting = maxVolume/numberLeds
     return min(numberLeds, int(volume/lighting))
-    # return int ((volume/maxVolume) * numberLeds)
 
 
 # main loop
